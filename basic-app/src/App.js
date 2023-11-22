@@ -36,7 +36,7 @@ function App() {
           </button>
         </div>
         {notes.map((note) => (
-          <div key={note.id}>
+          <div class="notes-text-show" key={note.id}>
             <strong>{note.title}</strong>
             <p>{note.content}</p>
             <p>Créé le {new Date(note.createdAt).toLocaleString()}</p>

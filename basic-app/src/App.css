@@ -59,3 +59,20 @@
   font-size: 10px;
   color: #382bf0;
 }
+
+.notes-text-show {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 0px;
+  color: inherit;
+  text-decoration: inherit;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
